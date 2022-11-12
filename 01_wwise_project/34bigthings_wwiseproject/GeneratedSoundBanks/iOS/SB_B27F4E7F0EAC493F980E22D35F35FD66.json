@@ -1,0 +1,120 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "iOS",
+  "BasePlatform": "iOS",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/",
+   "SourceFilesRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/.cache/iOS/",
+   "SoundBanksRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/GeneratedSoundBanks/iOS/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/GeneratedSoundBanks/iOS"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1877746861",
+    "GUID": "{6FEC24AD-24AD-14AD-ADAD-ADADADADADAD}",
+    "Language": "SFX",
+    "Hash": "2976267739",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B27F4E7F0EAC493F980E22D35F35FD66",
+    "ShortName": "SB_B27F4E7F0EAC493F980E22D35F35FD66",
+    "Path": "SB_B27F4E7F0EAC493F980E22D35F35FD66.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2832155465",
+      "Name": "Play_car_engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_car_engine",
+      "GUID": "{B27F4E7F-0EAC-493F-980E-22D35F35FD66}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "102674383",
+        "Language": "SFX",
+        "ShortName": "1krpm.wav",
+        "Path": "SFX/1krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "580385730",
+        "Language": "SFX",
+        "ShortName": "5krpm.wav",
+        "Path": "SFX/5krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "736447500",
+        "Language": "SFX",
+        "ShortName": "wind_loop.wav",
+        "Path": "SFX/wind_loop_D79FB2B7.wem"
+       },
+       {
+        "Id": "853569023",
+        "Language": "SFX",
+        "ShortName": "2krpm.wav",
+        "Path": "SFX/2krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "869987042",
+        "Language": "SFX",
+        "ShortName": "3krpm.wav",
+        "Path": "SFX/3krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "888207541",
+        "Language": "SFX",
+        "ShortName": "4krpm.wav",
+        "Path": "SFX/4krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "937730348",
+        "Language": "SFX",
+        "ShortName": "carstart.wav",
+        "Path": "SFX/carstart_10C4C929.wem"
+       },
+       {
+        "Id": "955994136",
+        "Language": "SFX",
+        "ShortName": "gear_shift.wav",
+        "Path": "SFX/gear_shift_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{AEAFB90F-9908-4A8C-8760-46A9C7220437}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{AEAFB90F-9908-4A8C-8760-46A9C7220437}",
+        "Media": [
+         {
+          "Id": "955994136"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "796049864",
+      "Name": "RPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RPM",
+      "GUID": "{288A01EA-2302-48A3-9423-B44F011A0E7C}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2635776243",
+      "Name": "gear_switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\car_switch\\gear_switch",
+      "GUID": "{1E3D519C-9891-4C0F-8C53-7ED010A15D29}",
+      "Switches": [
+       {
+        "Id": "2635776243",
+        "Name": "gear_switch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\car_switch\\gear_switch\\gear_switch",
+        "GUID": "{AEAFB90F-9908-4A8C-8760-46A9C7220437}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D318565-0090-456E-9F55-B7A640F89C32}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{8D318565-0090-456E-9F55-B7A640F89C32}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main_soundbank" ID="{0C2DFC3D-A39C-4FF2-8EB0-8D4575E0BF0E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_car_engine" ID="{ADF903F0-0A06-4223-9019-C00767A8B3DA}" WorkUnitID="{87ABFEBC-8BC9-4433-BEC4-C94C553E384F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_car_engine" ID="{B27F4E7F-0EAC-493F-980E-22D35F35FD66}" WorkUnitID="{87ABFEBC-8BC9-4433-BEC4-C94C553E384F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_amb" ID="{3BAB7BBB-2A11-4FEA-903E-E13041ACB06B}" WorkUnitID="{87ABFEBC-8BC9-4433-BEC4-C94C553E384F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

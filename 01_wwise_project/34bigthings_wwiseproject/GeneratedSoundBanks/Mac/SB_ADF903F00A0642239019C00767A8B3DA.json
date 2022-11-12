@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/",
+   "SourceFilesRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/.cache/Mac/",
+   "SoundBanksRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/GeneratedSoundBanks/Mac/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/GeneratedSoundBanks/Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1740177737",
+    "GUID": "{67B90149-0149-1149-4949-494949494949}",
+    "Language": "SFX",
+    "Hash": "826599776",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_ADF903F00A0642239019C00767A8B3DA",
+    "ShortName": "SB_ADF903F00A0642239019C00767A8B3DA",
+    "Path": "SB_ADF903F00A0642239019C00767A8B3DA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1691000743",
+      "Name": "Stop_car_engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_car_engine",
+      "GUID": "{ADF903F0-0A06-4223-9019-C00767A8B3DA}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1072814675",
+        "Language": "SFX",
+        "ShortName": "carstop.wav",
+        "Path": "SFX/carstop_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

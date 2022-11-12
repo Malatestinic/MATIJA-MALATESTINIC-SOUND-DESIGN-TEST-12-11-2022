@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D2AEC1D-4F58-4164-8F84-5C48722595DA}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{0D2AEC1D-4F58-4164-8F84-5C48722595DA}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="ambience" ID="{5129631B-E1FC-425E-9FA7-652B6632FEB2}" ShortID="455582040">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="night" ID="{1C2B696E-E9C4-4CD9-AC45-5AB2BF9C720D}" ShortID="823191575">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{13238ED6-222E-4589-AB6F-894697EAFF97}" ShortID="606819751">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}" WorkUnitID="{B1F275AB-72A3-4581-A4FF-36ABA6E28E5E}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7764179B-1C60-4E94-8667-C083C517532A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>4</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19.73036</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="night" ID="{48482344-CEAC-4A6C-9484-2193C70E4449}">
+									<Language>SFX</Language>
+									<AudioFile>night.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="964972944"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="test_state" ID="{B4CA98AD-2B3B-4CB5-9893-9D6780C1FBB0}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="night_rain_state" ID="{B771385A-047D-41C3-BCB1-E300E2151DA3}"/>
+										<CustomState Name="" ID="{148DE004-6241-4D6E-99B1-9AAD02BDCF71}" ShortID="720295252">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="rain_state" ID="{608481E8-3B82-43AB-A2FD-FD466B2CB796}"/>
+										<CustomState Name="" ID="{6ACD5D3D-DEDD-4C97-A06D-107EE56ED025}" ShortID="313129861">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="day_state" ID="{BAFD67B5-D911-45F0-BBD7-ED39EEE7BB4F}"/>
+										<CustomState Name="" ID="{22579D08-955F-420B-BDD5-2C41186301DB}" ShortID="414384082">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="night_state" ID="{573F47F6-521D-49BF-B69B-0F4F3B51C652}"/>
+										<CustomState Name="" ID="{4C1D06E3-3C88-4480-A8BB-89BDD855063C}" ShortID="1000859315"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="night" ID="{48482344-CEAC-4A6C-9484-2193C70E4449}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="city" ID="{E2847B0C-3745-43C5-A993-BBFD82269E8A}" ShortID="142539013">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="city" ID="{15FF5DD5-D5E6-4219-8DF1-EB727FD7DD21}">
+									<Language>SFX</Language>
+									<AudioFile>city.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="17144544"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="test_state" ID="{B4CA98AD-2B3B-4CB5-9893-9D6780C1FBB0}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="night_rain_state" ID="{B771385A-047D-41C3-BCB1-E300E2151DA3}"/>
+										<CustomState Name="" ID="{6BF9DB7A-C7E1-45B9-8350-BC2B6FC4BB1C}" ShortID="291626945">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="17"/>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="rain_state" ID="{608481E8-3B82-43AB-A2FD-FD466B2CB796}"/>
+										<CustomState Name="" ID="{E5A3D7F0-80B8-4C87-9C86-2CC8A4CF23F8}" ShortID="245688324">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-3"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="day_state" ID="{BAFD67B5-D911-45F0-BBD7-ED39EEE7BB4F}"/>
+										<CustomState Name="" ID="{221F4E19-89AC-4452-8C9A-FE06A721804B}" ShortID="587941909"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="night_state" ID="{573F47F6-521D-49BF-B69B-0F4F3B51C652}"/>
+										<CustomState Name="" ID="{C2982489-2DB4-4496-BB7C-D4083C9AA79A}" ShortID="17017200">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="24"/>
+												<Property Name="Lowpass" Type="int16" Value="14"/>
+												<Property Name="Volume" Type="Real64" Value="-4"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="city" ID="{15FF5DD5-D5E6-4219-8DF1-EB727FD7DD21}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="rain blend" ID="{C972ACFF-EFE5-497F-861E-93A5FB09291D}" ShortID="255940704">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="light_rain" ID="{9CD4AAA3-4AC6-4A67-AF25-2500ABC4B1A7}" ShortID="679362202">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="light_rain" ID="{2638F2B7-FDD9-444F-9B0F-5A4EBA5D2FAA}">
+											<Language>SFX</Language>
+											<AudioFile>light_rain.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="779664583"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="light_rain" ID="{2638F2B7-FDD9-444F-9B0F-5A4EBA5D2FAA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="rain" ID="{CAB4127B-BD38-4392-9447-E3DC52A7344E}" ShortID="400561069">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="rain_intensity_attenuator" ID="{36809560-E83E-4A30-AA6B-F6A9CE9FAC1C}" WorkUnitID="{1080FDE1-1AFC-41D9-AC28-228650112C6D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rain" ID="{6CEA1D09-00B3-4739-BBA8-3187EC5C1261}">
+											<Language>SFX</Language>
+											<AudioFile>rain.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812187798"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="rain" ID="{6CEA1D09-00B3-4739-BBA8-3187EC5C1261}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="thunder" ID="{FBA8BBA5-334B-4A56-A7B1-7F118D9C5D6D}" ShortID="562804314">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="rain_thunder_attenuator" ID="{0C840ACC-A91A-44D7-89F4-07571E6DEDAA}" WorkUnitID="{1080FDE1-1AFC-41D9-AC28-228650112C6D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="thunder" ID="{72642917-59C5-49A6-B5D7-480A11EA125C}">
+											<Language>SFX</Language>
+											<AudioFile>thunder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="673778318"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="thunder" ID="{72642917-59C5-49A6-B5D7-480A11EA125C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="test_state" ID="{B4CA98AD-2B3B-4CB5-9893-9D6780C1FBB0}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="night_rain_state" ID="{B771385A-047D-41C3-BCB1-E300E2151DA3}"/>
+										<CustomState Name="" ID="{1AF9641F-060E-453C-8527-342CE44B770A}" ShortID="1003531297"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="rain_state" ID="{608481E8-3B82-43AB-A2FD-FD466B2CB796}"/>
+										<CustomState Name="" ID="{D2CC7863-2509-4C94-9DFC-0587BEDC03B7}" ShortID="387735172"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="day_state" ID="{BAFD67B5-D911-45F0-BBD7-ED39EEE7BB4F}"/>
+										<CustomState Name="" ID="{0533536F-DC73-4B34-8461-A2FDC377FF1B}" ShortID="1034664799">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="night_state" ID="{573F47F6-521D-49BF-B69B-0F4F3B51C652}"/>
+										<CustomState Name="" ID="{787B7E2C-A99F-4528-A668-6D2BF424817F}" ShortID="720120657">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<BlendTrackList>
+								<BlendTrack Name="rain_intensity" ID="{C92297F8-BF8A-4ECE-8913-A1954BBD924E}" ShortID="350126723">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{46FFF367-D55F-4D3D-9380-50C044132378}" ShortID="911631381">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}" WorkUnitID="{B1F275AB-72A3-4581-A4FF-36ABA6E28E5E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5EAA5234-9BCD-4D2B-AA0B-A2B47F37ED7D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{27B7F4DD-BD04-4D0C-8C9E-CE13BE62B85E}" ShortID="268006229">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}" WorkUnitID="{B1F275AB-72A3-4581-A4FF-36ABA6E28E5E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{CC5B662C-EDDB-40C6-9F9C-DCF60AB722B7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>47.1218206157965</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}" WorkUnitID="{B1F275AB-72A3-4581-A4FF-36ABA6E28E5E}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="light_rain" ID="{9CD4AAA3-4AC6-4A67-AF25-2500ABC4B1A7}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>63.2530120481928</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="rain" ID="{CAB4127B-BD38-4392-9447-E3DC52A7344E}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>34.2704149933066</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="thunder" ID="{0C3C6DED-C320-4E98-B90A-59B855E6BD01}" ShortID="108823251">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{42CF4AA7-85A2-470E-810F-0690CBD5D17C}" ShortID="600737631">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}" WorkUnitID="{B1F275AB-72A3-4581-A4FF-36ABA6E28E5E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8F1D1D72-249F-4782-9F41-E365E4F33569}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>64.92637</XPos>
+																<YPos>-400</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>70.01438</XPos>
+																<YPos>-0.63029</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>2.10686</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}" WorkUnitID="{B1F275AB-72A3-4581-A4FF-36ABA6E28E5E}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="thunder" ID="{FBA8BBA5-334B-4A56-A7B1-7F118D9C5D6D}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<BlendContainer Name="day" ID="{0F249D48-C74C-4E73-8162-06F927147A7E}" ShortID="928835390">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{235F69DB-B882-45D3-9711-E889A982AF36}" ShortID="301900546">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}" WorkUnitID="{B1F275AB-72A3-4581-A4FF-36ABA6E28E5E}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{52AC335E-777D-494E-988F-52B7458CE4C4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>21.37932</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="day_birds" ID="{9076CE75-14D3-4988-9008-98C981EC7077}" ShortID="896203464">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>54</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>38</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{3C767314-DD8A-4486-B6B4-D4346D871077}" ShortID="1009029378">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}" WorkUnitID="{B1F275AB-72A3-4581-A4FF-36ABA6E28E5E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{88DE02AB-CA3A-4134-B995-9F4E78D35338}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>4</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>20.1993</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="day_birds" ID="{2ACADF5F-ECE0-43BF-BF66-83AFAC0C5C3B}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-4.3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>day_birds.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="582222094"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="day_birds" ID="{2ACADF5F-ECE0-43BF-BF66-83AFAC0C5C3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="birds" ID="{7B3FEFF3-1F3C-4759-A16F-0BEE69FEC882}" ShortID="14792929">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="birds" ID="{5BBC6A4B-781C-4044-AA03-D9EC63A66EAC}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-4.8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>birds.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="407338369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="birds" ID="{5BBC6A4B-781C-4044-AA03-D9EC63A66EAC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="New Random Container" ID="{EFCE5883-7A80-4B72-A085-F51DA6578EA1}" ShortID="422268701">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="birds_random" ID="{C2A00006-A47E-486F-9506-756B633FACBA}" ShortID="151821981">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="birds_random" ID="{1B1E54C0-9920-411D-A7A1-53DB9C88A462}">
+													<Language>SFX</Language>
+													<AudioFile>birds_random.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="833343331"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="birds_random" ID="{1B1E54C0-9920-411D-A7A1-53DB9C88A462}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="silence" ID="{6314F27A-3467-43C9-898B-CBE935064DD1}" ShortID="31489906">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA8F302-B084-4588-84B7-DC12E6301114}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9FBFBC58-8C7A-4591-8F4C-9D1FDFB39605}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{4B95ECC7-8331-43BB-B1D2-D484A8590E43}" ShortID="857315103" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="7.5"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{4B95ECC7-8331-43BB-B1D2-D484A8590E43}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="test_state" ID="{B4CA98AD-2B3B-4CB5-9893-9D6780C1FBB0}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="night_rain_state" ID="{B771385A-047D-41C3-BCB1-E300E2151DA3}"/>
+										<CustomState Name="" ID="{8E6911C5-98F3-4AFB-B22B-CE87B75CA85D}" ShortID="494867672">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="rain_state" ID="{608481E8-3B82-43AB-A2FD-FD466B2CB796}"/>
+										<CustomState Name="" ID="{6F7097EA-4885-45A0-A330-BE71708F6AC1}" ShortID="181163702">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="day_state" ID="{BAFD67B5-D911-45F0-BBD7-ED39EEE7BB4F}"/>
+										<CustomState Name="" ID="{CC8BF5C1-F82B-4999-B1A5-641F1195CBFA}" ShortID="729532475">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-2"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="night_state" ID="{573F47F6-521D-49BF-B69B-0F4F3B51C652}"/>
+										<CustomState Name="" ID="{BA931C74-3CD1-4300-8B6A-6ECE973114A2}" ShortID="945927163">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</BlendContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

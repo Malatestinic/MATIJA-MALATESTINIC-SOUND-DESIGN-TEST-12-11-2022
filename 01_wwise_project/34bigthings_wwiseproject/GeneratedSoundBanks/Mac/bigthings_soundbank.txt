@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1691000743	Stop_car_engine			\Default Work Unit\Stop_car_engine	
+	2832155465	Play_car_engine			\Default Work Unit\Play_car_engine	
+	2959533290	Play_amb			\Default Work Unit\Play_amb	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2256581122	sun_rain			\Default Work Unit\amb_switches\sun_rain	
+	2635776243	gear_switch			\Default Work Unit\car_switch\gear_switch	
+
+Switch	ID	Name	Switch Group			Notes
+	644904077	sun	sun_rain			
+	2043403999	rain	sun_rain			
+	2635776243	gear_switch	gear_switch			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	796049864	RPM			\Default Work Unit\RPM	
+	2520241501	rain_intensity			\Default Work Unit\rain_intensity	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17144544	city	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\city_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\weather\city		5424144
+	102674383	1krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\1krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\1krpm		1078744
+	580385730	5krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\5krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\5krpm		562280
+	673778318	thunder	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\thunder_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\weather\rain blend\thunder		6456156
+	736447500	wind_loop	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\wind_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\wind_loop		2688340
+	779664583	light_rain	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\light_rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\weather\rain blend\light_rain		1920144
+	812187798	rain	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\weather\rain blend\rain		1920144
+	853569023	2krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\2krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\2krpm		768144
+	869987042	3krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\3krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\3krpm		692928
+	888207541	4krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\4krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\4krpm		565544
+	937730348	carstart	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\carstart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\carstart		456144
+	955994136	gear_switch	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\gear_shift_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\gear_switch\gear_switch		47544
+	1072814675	carstop	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\Mac\SFX\carstop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\carstop		352944
+

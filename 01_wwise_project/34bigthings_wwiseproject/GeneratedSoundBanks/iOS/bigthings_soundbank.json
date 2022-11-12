@@ -1,0 +1,224 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "iOS",
+  "BasePlatform": "iOS",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/",
+   "SourceFilesRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/.cache/iOS/",
+   "SoundBanksRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/GeneratedSoundBanks/iOS/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/malatestinicm/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/34bigthings_wwiseproject/GeneratedSoundBanks/iOS"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4030594408",
+    "GUID": "{0C2DFC3D-A39C-4FF2-8EB0-8D4575E0BF0E}",
+    "Language": "SFX",
+    "Hash": "2525992836",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\bigthings_soundbank",
+    "ShortName": "bigthings_soundbank",
+    "Path": "bigthings_soundbank.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2959533290",
+      "Name": "Play_amb",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_amb",
+      "GUID": "{3BAB7BBB-2A11-4FEA-903E-E13041ACB06B}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "17144544",
+        "Language": "SFX",
+        "ShortName": "city.wav",
+        "Path": "SFX/city_D79FB2B7.wem"
+       },
+       {
+        "Id": "673778318",
+        "Language": "SFX",
+        "ShortName": "thunder.wav",
+        "Path": "SFX/thunder_D79FB2B7.wem"
+       },
+       {
+        "Id": "779664583",
+        "Language": "SFX",
+        "ShortName": "light_rain.wav",
+        "Path": "SFX/light_rain_D79FB2B7.wem"
+       },
+       {
+        "Id": "812187798",
+        "Language": "SFX",
+        "ShortName": "rain.wav",
+        "Path": "SFX/rain_D79FB2B7.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{4FCC7C8C-A093-4386-A0B7-A4BF1854C3F9}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{278FA273-088F-462E-AB8B-076E04563C00}",
+        "Media": [
+         {
+          "Id": "17144544"
+         },
+         {
+          "Id": "673778318"
+         },
+         {
+          "Id": "779664583"
+         },
+         {
+          "Id": "812187798"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4FCC7C8C-A093-4386-A0B7-A4BF1854C3F9}",
+        "Media": [
+         {
+          "Id": "17144544"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2832155465",
+      "Name": "Play_car_engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_car_engine",
+      "GUID": "{B27F4E7F-0EAC-493F-980E-22D35F35FD66}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "102674383",
+        "Language": "SFX",
+        "ShortName": "1krpm.wav",
+        "Path": "SFX/1krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "580385730",
+        "Language": "SFX",
+        "ShortName": "5krpm.wav",
+        "Path": "SFX/5krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "736447500",
+        "Language": "SFX",
+        "ShortName": "wind_loop.wav",
+        "Path": "SFX/wind_loop_D79FB2B7.wem"
+       },
+       {
+        "Id": "853569023",
+        "Language": "SFX",
+        "ShortName": "2krpm.wav",
+        "Path": "SFX/2krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "869987042",
+        "Language": "SFX",
+        "ShortName": "3krpm.wav",
+        "Path": "SFX/3krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "888207541",
+        "Language": "SFX",
+        "ShortName": "4krpm.wav",
+        "Path": "SFX/4krpm_D79FB2B7.wem"
+       },
+       {
+        "Id": "937730348",
+        "Language": "SFX",
+        "ShortName": "carstart.wav",
+        "Path": "SFX/carstart_10C4C929.wem"
+       },
+       {
+        "Id": "955994136",
+        "Language": "SFX",
+        "ShortName": "gear_shift.wav",
+        "Path": "SFX/gear_shift_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{AEAFB90F-9908-4A8C-8760-46A9C7220437}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{AEAFB90F-9908-4A8C-8760-46A9C7220437}",
+        "Media": [
+         {
+          "Id": "955994136"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1691000743",
+      "Name": "Stop_car_engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_car_engine",
+      "GUID": "{ADF903F0-0A06-4223-9019-C00767A8B3DA}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1072814675",
+        "Language": "SFX",
+        "ShortName": "carstop.wav",
+        "Path": "SFX/carstop_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "796049864",
+      "Name": "RPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RPM",
+      "GUID": "{288A01EA-2302-48A3-9423-B44F011A0E7C}"
+     },
+     {
+      "Id": "2520241501",
+      "Name": "rain_intensity",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rain_intensity",
+      "GUID": "{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2256581122",
+      "Name": "sun_rain",
+      "ObjectPath": "\\Switches\\Default Work Unit\\amb_switches\\sun_rain",
+      "GUID": "{ED24CB46-9161-4C52-A5EF-B822E8FA3162}",
+      "Switches": [
+       {
+        "Id": "644904077",
+        "Name": "sun",
+        "ObjectPath": "\\Switches\\Default Work Unit\\amb_switches\\sun_rain\\sun",
+        "GUID": "{4FCC7C8C-A093-4386-A0B7-A4BF1854C3F9}"
+       },
+       {
+        "Id": "2043403999",
+        "Name": "rain",
+        "ObjectPath": "\\Switches\\Default Work Unit\\amb_switches\\sun_rain\\rain",
+        "GUID": "{278FA273-088F-462E-AB8B-076E04563C00}"
+       }
+      ]
+     },
+     {
+      "Id": "2635776243",
+      "Name": "gear_switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\car_switch\\gear_switch",
+      "GUID": "{1E3D519C-9891-4C0F-8C53-7ED010A15D29}",
+      "Switches": [
+       {
+        "Id": "2635776243",
+        "Name": "gear_switch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\car_switch\\gear_switch\\gear_switch",
+        "GUID": "{AEAFB90F-9908-4A8C-8760-46A9C7220437}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

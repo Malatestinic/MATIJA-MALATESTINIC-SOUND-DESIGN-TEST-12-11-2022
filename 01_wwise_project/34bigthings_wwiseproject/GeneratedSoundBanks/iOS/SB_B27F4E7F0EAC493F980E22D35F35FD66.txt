@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2832155465	Play_car_engine			\Default Work Unit\Play_car_engine	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2635776243	gear_switch			\Default Work Unit\car_switch\gear_switch	
+
+Switch	ID	Name	Switch Group			Notes
+	2635776243	gear_switch	gear_switch			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	796049864	RPM			\Default Work Unit\RPM	
+

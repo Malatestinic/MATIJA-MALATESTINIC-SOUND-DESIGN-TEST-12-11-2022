@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1B41A93D-E82E-4B09-9309-E20AC742D54A}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{1B41A93D-E82E-4B09-9309-E20AC742D54A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="34bigthings_soundcaster" ID="{F4833267-E929-475C-983D-698763F274B5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_car_engine" ID="{B27F4E7F-0EAC-493F-980E-22D35F35FD66}" WorkUnitID="{87ABFEBC-8BC9-4433-BEC4-C94C553E384F}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_car_engine" ID="{ADF903F0-0A06-4223-9019-C00767A8B3DA}" WorkUnitID="{87ABFEBC-8BC9-4433-BEC4-C94C553E384F}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb" ID="{3BAB7BBB-2A11-4FEA-903E-E13041ACB06B}" WorkUnitID="{87ABFEBC-8BC9-4433-BEC4-C94C553E384F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rain_intensity" ID="{1AF87305-0FA3-45EC-8C1D-8AFF99A171EF}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{288A01EA-2302-48A3-9423-B44F011A0E7C}"/>
+							<Value>1000</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="day_state" ID="{BAFD67B5-D911-45F0-BBD7-ED39EEE7BB4F}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="gear_switch" ID="{AEAFB90F-9908-4A8C-8760-46A9C7220437}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

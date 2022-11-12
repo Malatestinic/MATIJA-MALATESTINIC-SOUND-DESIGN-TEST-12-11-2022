@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{87ABFEBC-8BC9-4433-BEC4-C94C553E384F}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{87ABFEBC-8BC9-4433-BEC4-C94C553E384F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_car_engine" ID="{B27F4E7F-0EAC-493F-980E-22D35F35FD66}">
+					<ChildrenList>
+						<Action Name="" ID="{3D04A828-D8A6-4F2A-84B0-E7FF2DD3C10B}" ShortID="207102192">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="carstart" ID="{BC266899-6B09-40E6-9605-2CB5759896A7}" WorkUnitID="{07ACAFAB-C960-41CD-BF09-8A03F01F8A7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9716A57F-E1B3-4EB2-B723-749864EBF2D7}" ShortID="758393012">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="car_engine" ID="{83657479-A6B3-4BFE-9022-A9270A9A56FA}" WorkUnitID="{07ACAFAB-C960-41CD-BF09-8A03F01F8A7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_car_engine" ID="{ADF903F0-0A06-4223-9019-C00767A8B3DA}">
+					<ChildrenList>
+						<Action Name="" ID="{8CA41548-A3C5-493C-A7F6-B7A505E4659A}" ShortID="633191539">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="car_engine" ID="{83657479-A6B3-4BFE-9022-A9270A9A56FA}" WorkUnitID="{07ACAFAB-C960-41CD-BF09-8A03F01F8A7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D2D44DCD-5891-4DD5-9E65-97CE2E9B55FF}" ShortID="152536497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="carstop" ID="{099B4FC8-F595-43C7-B0DE-7A1825D4C321}" WorkUnitID="{07ACAFAB-C960-41CD-BF09-8A03F01F8A7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_amb" ID="{3BAB7BBB-2A11-4FEA-903E-E13041ACB06B}">
+					<ChildrenList>
+						<Action Name="" ID="{D2CDA3AE-D057-4524-9E28-61715AFD7FEB}" ShortID="798234130">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience" ID="{5129631B-E1FC-425E-9FA7-652B6632FEB2}" WorkUnitID="{0D2AEC1D-4F58-4164-8F84-5C48722595DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

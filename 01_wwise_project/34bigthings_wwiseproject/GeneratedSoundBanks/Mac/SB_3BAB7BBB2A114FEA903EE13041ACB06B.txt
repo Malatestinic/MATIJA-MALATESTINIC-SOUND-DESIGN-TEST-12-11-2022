@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2959533290	Play_amb			\Default Work Unit\Play_amb	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2551646651	test_state			\Default Work Unit\test_state	
+
+State	ID	Name	State Group			Notes
+	748895195	None	test_state			
+	843991583	night_state	test_state			
+	1698905097	rain_state	test_state			
+	3443998468	night_rain_state	test_state			
+	3617769675	day_state	test_state			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	17017200	night_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\city		
+	181163702	rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\day		
+	245688324	rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\city		
+	291626945	night_rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\city		
+	313129861	rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\night		
+	414384082	day_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\night		
+	494867672	night_rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\day		
+	720120657	night_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\rain blend		
+	720295252	night_rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\night		
+	729532475	day_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\day		
+	945927163	night_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\day		
+	1034664799	day_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\rain blend		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2520241501	rain_intensity			\Default Work Unit\rain_intensity	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	857315103	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ambience\ambience\day\New Random Container\silence\Wwise Silence	
+

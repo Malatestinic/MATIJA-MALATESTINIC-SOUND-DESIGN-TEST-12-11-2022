@@ -1,0 +1,61 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1691000743	Stop_car_engine			\Default Work Unit\Stop_car_engine	
+	2832155465	Play_car_engine			\Default Work Unit\Play_car_engine	
+	2959533290	Play_amb			\Default Work Unit\Play_amb	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2635776243	gear_switch			\Default Work Unit\car_switch\gear_switch	
+
+Switch	ID	Name	Switch Group			Notes
+	2635776243	gear_switch	gear_switch			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2551646651	test_state			\Default Work Unit\test_state	
+
+State	ID	Name	State Group			Notes
+	748895195	None	test_state			
+	843991583	night_state	test_state			
+	1698905097	rain_state	test_state			
+	3443998468	night_rain_state	test_state			
+	3617769675	day_state	test_state			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	17017200	night_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\city		
+	181163702	rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\day		
+	245688324	rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\city		
+	291626945	night_rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\city		
+	313129861	rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\night		
+	414384082	day_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\night		
+	494867672	night_rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\day		
+	720120657	night_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\rain blend		
+	720295252	night_rain_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\night		
+	729532475	day_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\day		
+	945927163	night_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\day		
+	1034664799	day_state	test_state	\Actor-Mixer Hierarchy\Ambience\ambience\rain blend		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	796049864	RPM			\Default Work Unit\RPM	
+	2520241501	rain_intensity			\Default Work Unit\rain_intensity	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	857315103	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ambience\ambience\day\New Random Container\silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17144544	city	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\city_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\city		5424144
+	102674383	1krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\1krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\1krpm		1078744
+	407338369	birds	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\birds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\day\birds		6048144
+	580385730	5krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\5krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\5krpm		562280
+	582222094	day_birds	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\day_birds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\day\day_birds		2078392
+	673778318	thunder	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\thunder_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\rain blend\thunder		6456156
+	736447500	wind_loop	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\wind_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\wind_loop		2688340
+	779664583	light_rain	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\light_rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\rain blend\light_rain		1920144
+	812187798	rain	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\rain blend\rain		1920144
+	833343331	birds_random	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\birds_random_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\day\New Random Container\birds_random		2304144
+	853569023	2krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\2krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\2krpm		768144
+	869987042	3krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\3krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\3krpm		692928
+	888207541	4krpm	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\4krpm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\4krpm		565544
+	937730348	carstart	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\carstart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\carstart		456144
+	955994136	gear_switch	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\gear_shift_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\car_engine\gear_switch\gear_switch		47544
+	964972944	night	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\night_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\ambience\night		672436
+	1072814675	carstop	Y:\Documents\WwiseProjects\34bigthings_wwiseproject\.cache\iOS\SFX\carstop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\car_engine_full\carstop		384144
+
